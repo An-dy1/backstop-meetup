@@ -43,7 +43,7 @@ Want to learn more about json? I like [this resource](https://www.digitalocean.c
 Open the backstop.json file. There are two fields you need to change here. Update the value of **"label"** to a title of your choice and the value of **"URL"** to the address of the site you're testing. For example:
 
 ```text
-"label": "My first test"
+"label": "My first test",
 "url": "https://google.com"
 ```
 
