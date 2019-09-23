@@ -1,28 +1,20 @@
-# Backstop Pre-reqs
+---
+description: A little bit about this guide and BackstopJS
+---
 
-## Here's what you'll need
+# Introduction
 
-There are only a few things you'll need to get started with BackstopJS.
+Hey 👋 my name is Andie Johnson. You can find me on Github [here](https://github.com/An-dy1) or LinkedIn [here](https://www.linkedin.com/in/andrea-j-817411152/). 
 
-1. **Install NodeJS**
+I work for [VMLYR](https://www.vmlyr.com/), a global marketing agency headquartered in Kansas City, MO. I'm a member of VMLYR's **Automation of Quality** practice.
 
-   a. Go to [this site](https://nodejs.org/en/download/)
+I learned BackstopJS in the summer of 2019 to beef up our visual testing offerings. 
 
-   b. Click either the Mac installer or the Windows installer depending on which operating system you have.
+Speaking of BackstopJS, what is it exactly? In tester speak it is a tool for automating "**visual regression testing of your responsive web UI by comparing DOM screenshots over time" \(**[Github repo](https://github.com/garris/BackstopJS)**\).**
 
-![Image](.gitbook/assets/image.png)
+To make it a little more plain, BackstopJS takes screenshots of a site and saves them as a [bitmaps image](https://en.wikipedia.org/wiki/Bitmap). After you or a developer makes changes to the site, you can take another set of screenshots that BackstopJS will compare to the first set pixel by pixel. 
 
-c. Double click the downloaded file and follow the installation steps.
+Why would you want to do that? Well, if you've ever dug into the CSS of a mature site you know it can sometimes be ... shall we say messy? Let's imagine you alter some CSS aimed at changing the color of a sign-up button on your site. If you run a BackstopJS test you'll know that in fact, only the button color changed.
 
-d. To check it downloaded correctly, open Terminal \(if on a Mac\) or the Command Prompt \(if on Windows\) and type:
-
-```text
-$ node -v
-```
-
-If you get anything other than a number that looks like v9.0.0, your installation was unsuccessful.
-
-1. **\(OPTIONAL\) Create a** [**Github account**](https://github.com/) if you haven't already.
-
-   a. If you'd like a Git and Version Control primer, I recommend [this resource](https://hellowebbooks.com/learn-command-line/). It's free but does require you enter an email address.
+Alright, enough intro. Let's do some testing.
 
