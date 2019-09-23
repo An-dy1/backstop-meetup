@@ -4,7 +4,7 @@ description: There are only a few commands between you and a successful first te
 
 # Your first BackstopJS test
 
-Globally install BackstopJS.
+From the command line, globally install BackstopJS.
 
 ```text
 $ npm install -g backstopjs
@@ -34,7 +34,13 @@ Initialize a new BackstopJS project in that directory.
 $ backstop init
 ```
 
-Navigate to your IDE of choice. 
+Navigate to your IDE of choice and open your project directory there. You'll have two things in there: a directory called **backstop\_data** and a file called **backstop.json**.
+
+{% hint style="info" %}
+Want to learn more about json? I like [this resource](https://www.digitalocean.com/community/tutorials/an-introduction-to-json). 
+{% endhint %}
+
+
 
 
 
