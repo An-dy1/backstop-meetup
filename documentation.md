@@ -1,3 +1,7 @@
+---
+description: Here are the resources I found most helpful as I learned how to use BackstopJS
+---
+
 # Documentation
 
 📚 BackstopJS's documentation is top-notch and I recommend having it open as we go through the workshop and anytime you're working on your visual testing suite. Find it [here](https://github.com/garris/BackstopJS). 
