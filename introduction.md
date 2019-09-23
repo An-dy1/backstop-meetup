@@ -1,14 +1,22 @@
+---
+description: There are only a few things you'll need to get started with BackstopJS
+---
+
 # Pre-reqs
 
-## Here's what you'll need
+## An IDE \(integrated development environment\)
 
-There are only a few things you'll need to get started with BackstopJS.
+I'll be using [Visual Studio Code](https://code.visualstudio.com/) in my demo. Follow the link, download, open the file and follow the installation instructions.
 
-1. **Install NodeJS**
+Other popular options include [Atom](https://atom.io/) and [Sublime Text](https://www.sublimetext.com/).
 
-   a. Go to [this site](https://nodejs.org/en/download/)
+## **NodeJS**
 
-   b. Click either the Mac installer or the Windows installer depending on which operating system you have.
+**To install:**
+
+a. Go to [this site](https://nodejs.org/en/download/)
+
+b. Click either the Mac installer or the Windows installer depending on which operating system you have.
 
 ![Image](.gitbook/assets/image.png)
 
@@ -22,7 +30,9 @@ $ node -v
 
 If you get anything other than a number that looks like v9.0.0, your installation was unsuccessful.
 
-1. **\(OPTIONAL\) Create a** [**Github account**](https://github.com/) if you haven't already.
+## **A Github Account**
 
-   a. If you'd like a Git and Version Control primer, I recommend [this resource](https://hellowebbooks.com/learn-command-line/). It's free but does require you enter an email address.
+Sign up [here](www.github.com).
+
+If you'd like a Git and Version Control primer, I recommend [this resource](https://hellowebbooks.com/learn-command-line/). It's free but does require you enter an email address.
 
