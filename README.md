@@ -10,7 +10,7 @@ There are only a few things you'll need to get started with BackstopJS.
 
    b. Click either the Mac installer or the Windows installer depending on which operating system you have.
 
-![](.gitbook/assets/image.png)
+![Image](.gitbook/assets/image.png)
 
 Double click the downloaded file and follow the installation steps.
 
