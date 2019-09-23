@@ -12,15 +12,15 @@ There are only a few things you'll need to get started with BackstopJS.
 
 ![](.gitbook/assets/image.png)
 
-      c. Double click the downloaded file and follow the installation steps.
+Double click the downloaded file and follow the installation steps.
 
-      d. To check it downloaded correctly, open Terminal \(if on a Mac\) or the Command Prompt \(if on     Windows\) and type:
+To check it downloaded correctly, open Terminal \(if on a Mac\) or the Command Prompt \(if on Windows\) and type:
 
 ```
 $ node -v
 ```
 
-      e. If you get anything other than a number that looks like v9.0.0, your installation was unsuccessful.
+If you get anything other than a number that looks like v9.0.0, your installation was unsuccessful.
 
 2. **\(OPTIONAL\) Create a** [**Github account**](https://github.com/) if you haven't already.
 
