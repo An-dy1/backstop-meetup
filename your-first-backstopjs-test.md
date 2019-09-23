@@ -40,7 +40,30 @@ Navigate to your IDE of choice and open your project directory there. You'll hav
 Want to learn more about json? I like [this resource](https://www.digitalocean.com/community/tutorials/an-introduction-to-json). 
 {% endhint %}
 
+Open the backstop.json file. There are two fields you need to change here. Update the value of **"label"** to a title of your choice and the value of **"URL"** to the address of the site you're testing. For example:
 
+```text
+"label": "My first test"
+"url": "https://google.com"
+```
+
+To create reference images:
+
+```text
+$ backstop references
+```
+
+To create test images and an HTML report:
+
+```text
+$ backstop test
+```
+
+To approve your test images:
+
+```text
+$ backstop approve
+```
 
 
 
