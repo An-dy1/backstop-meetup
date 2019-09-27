@@ -3,14 +3,14 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_The_Atlantic_Homepage_0_document_0_phone.png",
-        "test": "../bitmaps_test/20190923-131731/backstop_default_The_Atlantic_Homepage_0_document_0_phone.png",
+        "reference": "../bitmaps_reference/backstop_default_Coding_and_Cocktails_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190926-191921/backstop_default_Coding_and_Cocktails_0_document_0_phone.png",
         "selector": "document",
-        "fileName": "backstop_default_The_Atlantic_Homepage_0_document_0_phone.png",
-        "label": "The Atlantic Homepage",
-        "requireSameDimensions": false,
-        "misMatchThreshold": 0.6,
-        "url": "https://www.theatlantic.com/",
+        "fileName": "backstop_default_Coding_and_Cocktails_0_document_0_phone.png",
+        "label": "Coding and Cocktails",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://codingandcocktails.kcwomenintech.org/",
         "referenceUrl": "",
         "expect": 0,
         "viewportLabel": "phone",
@@ -20,38 +20,35 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "1.10",
-          "analysisTime": 88
-        },
-        "diffImage": "../bitmaps_test/20190923-131731/failed_diff_backstop_default_The_Atlantic_Homepage_0_document_0_phone.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_The_Atlantic_Homepage_0_document_1_tablet.png",
-        "test": "../bitmaps_test/20190923-131731/backstop_default_The_Atlantic_Homepage_0_document_1_tablet.png",
+        "reference": "../bitmaps_reference/backstop_default_Coding_and_Cocktails_0_document_1_desktop.png",
+        "test": "../bitmaps_test/20190926-191921/backstop_default_Coding_and_Cocktails_0_document_1_desktop.png",
         "selector": "document",
-        "fileName": "backstop_default_The_Atlantic_Homepage_0_document_1_tablet.png",
-        "label": "The Atlantic Homepage",
-        "requireSameDimensions": false,
-        "misMatchThreshold": 0.6,
-        "url": "https://www.theatlantic.com/",
+        "fileName": "backstop_default_Coding_and_Cocktails_0_document_1_desktop.png",
+        "label": "Coding and Cocktails",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://codingandcocktails.kcwomenintech.org/",
         "referenceUrl": "",
         "expect": 0,
-        "viewportLabel": "tablet",
+        "viewportLabel": "desktop",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 4
+            "height": 0
           },
-          "misMatchPercentage": "12.44",
-          "analysisTime": 259
-        },
-        "diffImage": "../bitmaps_test/20190923-131731/failed_diff_backstop_default_The_Atlantic_Homepage_0_document_1_tablet.png"
+          "misMatchPercentage": "0.00",
+          "analysisTime": 257
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ],
   "id": "backstop_default"
