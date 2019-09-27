@@ -7,8 +7,8 @@
       "height": 480
     },
     {
-      "label": "tablet",
-      "width": 1024,
+      "label": "desktop",
+      "width": 1366,
       "height": 768
     }
   ],
@@ -16,23 +16,37 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "The Atlantic Homepage",
+      "keyPressSelectors": [
+        {
+          "selector": "#mce-EMAIL",
+          "keyPress": "andiesj@me.com"
+        },
+        {
+          "selector": "#mce-FNAME",
+          "keyPress": "Andie"
+        },
+        {
+          "selector": "#mce-LNAME",
+          "keyPress": "Johnson"
+        }
+      ],
+      "label": "Coding and Cocktails",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://www.theatlantic.com/",
+      "url": "https://codingandcocktails.kcwomenintech.org/",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
       "delay": 1000,
       "hideSelectors": [],
-      "removeSelectors": [".c-ad-container", ".lazyloaded"],
+      "removeSelectors": [],
       "hoverSelector": "",
-      "clickSelector": "",
-      "postInteractionWait": 0,
+      "clickSelector": "#mc-embedded-subscribe",
+      "postInteractionWait": 1000,
       "selectors": [],
       "selectorExpansion": true,
       "expect": 0,
-      "misMatchThreshold" : 0.6,
-      "requireSameDimensions": false
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
     }
   ],
   "paths": {
