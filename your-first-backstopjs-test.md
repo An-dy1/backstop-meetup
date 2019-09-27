@@ -50,7 +50,7 @@ Open the backstop.json file. There are two fields you need to change here. Updat
 To create reference images:
 
 ```text
-$ backstop references
+$ backstop reference
 ```
 
 To create test images and an HTML report:
