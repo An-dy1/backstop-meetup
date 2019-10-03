@@ -1,5 +1,5 @@
 ---
-description: There are only a few commands between you and a successful first test.
+description: There are only a few commands between you and a successful first test. Yay!
 ---
 
 # Your first BackstopJS test
