@@ -16,23 +16,9 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "keyPressSelectors": [
-        {
-          "selector": "#mce-EMAIL",
-          "keyPress": "andiesj@me.com"
-        },
-        {
-          "selector": "#mce-FNAME",
-          "keyPress": "Andie"
-        },
-        {
-          "selector": "#mce-LNAME",
-          "keyPress": "Johnson"
-        }
-      ],
-      "label": "",
+      "label": "Mountain Biking Rules",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "",
+      "url": "https://www.southernendurotour.com/",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
@@ -40,7 +26,7 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "hoverSelector": "",
-      "clickSelector": "#mc-embedded-subscribe",
+      "clickSelector": "",
       "postInteractionWait": 1000,
       "selectors": [],
       "selectorExpansion": true,

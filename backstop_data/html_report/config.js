@@ -3,14 +3,14 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Coding_and_Cocktails_0_document_0_phone.png",
-        "test": "../bitmaps_test/20190926-191921/backstop_default_Coding_and_Cocktails_0_document_0_phone.png",
+        "reference": "../bitmaps_reference/backstop_default_Mountain_Biking_Rules_0_document_0_phone.png",
+        "test": "../bitmaps_test/20191024-155911/backstop_default_Mountain_Biking_Rules_0_document_0_phone.png",
         "selector": "document",
-        "fileName": "backstop_default_Coding_and_Cocktails_0_document_0_phone.png",
-        "label": "Coding and Cocktails",
+        "fileName": "backstop_default_Mountain_Biking_Rules_0_document_0_phone.png",
+        "label": "Mountain Biking Rules",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
-        "url": "https://codingandcocktails.kcwomenintech.org/",
+        "url": "https://www.southernendurotour.com/",
         "referenceUrl": "",
         "expect": 0,
         "viewportLabel": "phone",
@@ -27,14 +27,14 @@ report({
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Coding_and_Cocktails_0_document_1_desktop.png",
-        "test": "../bitmaps_test/20190926-191921/backstop_default_Coding_and_Cocktails_0_document_1_desktop.png",
+        "reference": "../bitmaps_reference/backstop_default_Mountain_Biking_Rules_0_document_1_desktop.png",
+        "test": "../bitmaps_test/20191024-155911/backstop_default_Mountain_Biking_Rules_0_document_1_desktop.png",
         "selector": "document",
-        "fileName": "backstop_default_Coding_and_Cocktails_0_document_1_desktop.png",
-        "label": "Coding and Cocktails",
+        "fileName": "backstop_default_Mountain_Biking_Rules_0_document_1_desktop.png",
+        "label": "Mountain Biking Rules",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
-        "url": "https://codingandcocktails.kcwomenintech.org/",
+        "url": "https://www.southernendurotour.com/",
         "referenceUrl": "",
         "expect": 0,
         "viewportLabel": "desktop",
@@ -44,8 +44,7 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 257
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
